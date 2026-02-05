@@ -3,7 +3,7 @@
 ## Last Session
 - Date: 2026-02-05
 - Status: Feature completed
-- Completed: F009 - UI布局 - 底部Tab导航 (Issue #1)
+- Completed: F001 - 用户设置模块 (Issue #2)
 
 ## Current Task
 - None (ready for next feature)
@@ -11,10 +11,11 @@
 ## Next Steps
 1. Select next feature from feature_list.json
 2. Continue with /coding-session
-3. Next recommended: F001 - 用户设置模块 (Issue #2)
+3. Next recommended: F002 - 记账功能 - 收支记录 (Issue #3)
 
 ## Notes
 - GitHub repo: https://github.com/LQY-920/sleep
-- Taro project structure created with React + TypeScript
-- 5 tab pages implemented: 首页、记账、签到、计划、我的
-- TabBar icons need to be added (placeholder paths configured)
+- User store created with Taro storage API
+- Profile page now supports inline editing
+- Friend code auto-generated on first launch
+- Check-in time settings page implemented

@@ -20,7 +20,8 @@
       "related_modules": ["用户模块", "设置模块"],
       "test_requirements": ["测试用户信息保存和读取", "测试朋友码生成唯一性"],
       "priority": 1,
-      "passes": false,
+      "passes": true,
+      "completed_at": "2026-02-05",
       "github_issue": 2
     },
     {

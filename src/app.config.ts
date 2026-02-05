@@ -4,7 +4,9 @@ export default defineAppConfig({
     'pages/accounting/index',
     'pages/checkin/index',
     'pages/plan/index',
-    'pages/profile/index'
+    'pages/profile/index',
+    'pages/settings/checkin-time',
+    'pages/settings/add-friend'
   ],
   window: {
     backgroundTextStyle: 'light',
