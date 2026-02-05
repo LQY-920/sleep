@@ -1,0 +1,118 @@
+.plan {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+
+  .container {
+    padding: 20rpx;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30rpx;
+
+    .title {
+      font-size: 36rpx;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .add-btn {
+      background: linear-gradient(135deg, #1890ff 0%, #36cfc9 100%);
+      padding: 16rpx 32rpx;
+      border-radius: 30rpx;
+
+      text {
+        color: #fff;
+        font-size: 28rpx;
+      }
+    }
+  }
+
+  .plan-list {
+    background-color: #fff;
+    border-radius: 16rpx;
+    padding: 40rpx;
+    margin-bottom: 30rpx;
+    min-height: 300rpx;
+
+    .empty-state {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+
+      .empty-icon {
+        width: 120rpx;
+        height: 120rpx;
+        background-color: #f0f0f0;
+        border-radius: 50%;
+        margin-bottom: 20rpx;
+      }
+
+      .empty-text {
+        font-size: 30rpx;
+        color: #999;
+        margin-bottom: 10rpx;
+      }
+
+      .empty-hint {
+        font-size: 24rpx;
+        color: #ccc;
+        text-align: center;
+      }
+    }
+  }
+
+  .plan-types {
+    .section-title {
+      font-size: 28rpx;
+      color: #666;
+      margin-bottom: 20rpx;
+      display: block;
+    }
+
+    .type-card {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      border-radius: 16rpx;
+      padding: 24rpx;
+      margin-bottom: 16rpx;
+
+      .type-icon {
+        width: 80rpx;
+        height: 80rpx;
+        border-radius: 50%;
+        margin-right: 20rpx;
+
+        &.pet {
+          background: linear-gradient(135deg, #ff7875 0%, #ffa39e 100%);
+        }
+
+        &.plant {
+          background: linear-gradient(135deg, #52c41a 0%, #95de64 100%);
+        }
+      }
+
+      .type-info {
+        flex: 1;
+
+        .type-name {
+          display: block;
+          font-size: 30rpx;
+          font-weight: bold;
+          color: #333;
+          margin-bottom: 6rpx;
+        }
+
+        .type-desc {
+          font-size: 24rpx;
+          color: #999;
+        }
+      }
+    }
+  }
+}
