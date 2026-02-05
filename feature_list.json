@@ -21,7 +21,7 @@
       "test_requirements": ["测试用户信息保存和读取", "测试朋友码生成唯一性"],
       "priority": 1,
       "passes": false,
-      "github_issue": null
+      "github_issue": 2
     },
     {
       "id": "F002",
@@ -40,7 +40,7 @@
       "test_requirements": ["测试收支记录的增删改查", "测试自定义分类管理"],
       "priority": 2,
       "passes": false,
-      "github_issue": null
+      "github_issue": 3
     },
     {
       "id": "F003",
@@ -59,7 +59,7 @@
       "test_requirements": ["测试统计数据准确性", "测试图表渲染", "测试预算提醒触发"],
       "priority": 3,
       "passes": false,
-      "github_issue": null
+      "github_issue": 4
     },
     {
       "id": "F004",
@@ -78,7 +78,7 @@
       "test_requirements": ["测试签到时间段判断", "测试AI话术生成", "测试连续签到计数"],
       "priority": 4,
       "passes": false,
-      "github_issue": null
+      "github_issue": 5
     },
     {
       "id": "F005",
@@ -98,7 +98,7 @@
       "test_requirements": ["测试计划创建和删除", "测试打卡功能", "测试状态重置"],
       "priority": 5,
       "passes": false,
-      "github_issue": null
+      "github_issue": 6
     },
     {
       "id": "F006",
@@ -117,7 +117,7 @@
       "test_requirements": ["测试朋友添加流程", "测试朋友列表显示"],
       "priority": 6,
       "passes": false,
-      "github_issue": null
+      "github_issue": 7
     },
     {
       "id": "F007",
@@ -136,7 +136,7 @@
       "test_requirements": ["测试帮助打卡功能", "测试通知发送", "测试AI通知生成"],
       "priority": 7,
       "passes": false,
-      "github_issue": null
+      "github_issue": 8
     },
     {
       "id": "F008",
@@ -155,7 +155,7 @@
       "test_requirements": ["测试首页数据加载", "测试动态列表渲染", "测试页面跳转"],
       "priority": 8,
       "passes": false,
-      "github_issue": null
+      "github_issue": 9
     },
     {
       "id": "F009",
@@ -173,7 +173,7 @@
       "test_requirements": ["测试Tab切换功能", "测试高亮状态"],
       "priority": 1,
       "passes": false,
-      "github_issue": null
+      "github_issue": 1
     }
   ]
 }
